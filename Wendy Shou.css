@@ -1,0 +1,74 @@
+/* 导航栏 */
+.column1{
+	float:center;
+	color:white;
+	margin-left:2px;
+	font-size: 40px;
+	letter-spacing: 14.5px;
+	font-family: Marker Felt;
+}
+a{
+	text-decoration: none;
+	float:left;
+	border-right: 10px dotted lightgrey;
+}
+
+a:hover{
+	background-color:darkgreen;
+	color:black;
+}
+
+/*  3 图片 */
+.column{
+	width:33%;
+	float:left;
+	margin-left:3px;
+}
+
+/* 3图片下面的字 */
+.column2{
+  width:33%;
+  float:left;
+  background-color: rgb(3,69,3);
+  margin-left:3px;
+  text-decoration:none;
+}
+
+/* 表格 */
+table,th,td{
+  border:6px outset silver;
+  height:60px;
+  width: 1350px;
+}
+
+th{
+  background-color: rgb(101,184,142);
+  color: rgb(245,237,218);
+  font-size: 30px;
+  font-family: Marker Felt;
+  width: 90px;
+}
+td{
+  color:white;
+  text-align: center;
+  vertical-align: middle;
+  padding:30px;
+  font-size:22px;
+  font-family: Comic Sans MS;
+  line-height: 2;
+
+}
+
+td:hover{background-color:rgb(41,41,59);}
+th:hover{background-color:rgb(3,69,3);}
+
+.last{
+	font-family: papyrus;
+	font-size: 10px;
+}
+
+.last2{
+	background-color: rgb(3,69,3);
+	padding: 10px;
+}
+
